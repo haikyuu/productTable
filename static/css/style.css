@@ -1,0 +1,48 @@
+/*
+	CSS
+ */
+body {
+	margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.my-app {
+    font: normal 30px Arial;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #006699;
+    border-radius: 4px;
+}
+
+td, th{
+    padding: 2px 7px;
+}
+
+th {
+    background-color: #006699;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    border-left: 0px solid #0070A8;
+}
+
+th {
+    border: none;
+}
+
+td {
+    color: #00496B;
+    border-left: 1px solid #E1EEF4;
+    font-size: 18px;
+    font-weight: normal;
+}
+.alt td{
+	background: #E1EEF4;
+    color: #00496B;
+}
+
